@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lab 6</title>
+    <link rel="stylesheet" type="text/css" href="main.css"></style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <form id="mainForm">
+      <p>
+        <label for="apiKey">
+          API Key: 
+        </label>
+        <input type="text" id="apiKey"/>
+      </p>
+      <p>
+        <label for="searchText">
+          Search term: 
+        </label>
+        <input type="text" id="searchText"/>
+        <input type="submit" id="searchButton"/>
+      </p>
+    </form>
+    <ul id="resultList">
+    </ul>
+    <button id="nextButton">More Results</button>
+    <script src="script.js"></script>
+  </body>
+</html>
